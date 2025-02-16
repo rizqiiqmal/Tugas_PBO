@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|d:\\my\\rzqiiqmal_\\semester 3\\pbo\\tugas besar\\management_employees\\management_employees\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|d:\\my\\rzqiiqmal_\\semester 3\\pbo\\tugas besar\\management_employees\\management_employees\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|d:\\my\\rzqiiqmal_\\semester 3\\pbo\\tugas besar\\management_employees\\management_employees\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|d:\\my\\rzqiiqmal_\\semester 3\\pbo\\tugas besar\\management_employees\\management_employees\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|d:\\my\\rzqiiqmal_\\semester 3\\pbo\\tugas besar\\management_employees\\management_employees\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\Form1.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Form1.cs",
+              "ToolTip": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\Form1.cs",
+              "RelativeToolTip": "Management_Employees\\Form1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:41:04.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs [Design]",
+              "DocumentMoniker": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\Employee.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Employee.cs",
+              "ToolTip": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\Employee.cs [Design]",
+              "RelativeToolTip": "Management_Employees\\Employee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:51:07.482Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParentForm.cs",
+              "DocumentMoniker": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\ParentForm.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\ParentForm.cs",
+              "ToolTip": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\ParentForm.cs",
+              "RelativeToolTip": "Management_Employees\\ParentForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:48:09.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParentForm.cs [Design]",
+              "DocumentMoniker": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\ParentForm.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\ParentForm.cs",
+              "ToolTip": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\ParentForm.cs [Design]",
+              "RelativeToolTip": "Management_Employees\\ParentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:28:45.142Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\Form1.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Form1.cs",
+              "ToolTip": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\Form1.cs [Design]",
+              "RelativeToolTip": "Management_Employees\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T06:11:02.588Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

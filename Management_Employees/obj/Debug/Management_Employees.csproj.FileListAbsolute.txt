@@ -1,0 +1,12 @@
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\bin\Debug\Management_Employees.exe.config
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\bin\Debug\Management_Employees.exe
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\bin\Debug\Management_Employees.pdb
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.csproj.AssemblyReference.cache
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.Form1.resources
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.ParentForm.resources
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.Properties.Resources.resources
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.csproj.GenerateResource.cache
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.csproj.CoreCompileInputs.cache
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.exe
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.pdb
+D:\my\rzqiiqmal_\semester 3\PBO\Tugas Besar\Management_Employees\Management_Employees\obj\Debug\Management_Employees.Employee.resources
