@@ -98,44 +98,56 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs">
+    <Compile Include="Controller\C_jabatan.cs" />
+    <Compile Include="Model\M_jabatan.cs" />
+    <Compile Include="View\Employee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee.Designer.cs">
+    <Compile Include="View\Employee.Designer.cs">
       <DependentUpon>Employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeController.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Controller\EmployeeController.cs" />
+    <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="koneksi.cs" />
-    <Compile Include="loading.cs">
+    <Compile Include="Controller\koneksi.cs" />
+    <Compile Include="View\Jabatan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loading.Designer.cs">
+    <Compile Include="View\Jabatan.Designer.cs">
+      <DependentUpon>Jabatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\loading.Designer.cs">
       <DependentUpon>loading.cs</DependentUpon>
     </Compile>
-    <Compile Include="ParentForm.cs">
+    <Compile Include="Model\M_emplyee.cs" />
+    <Compile Include="View\ParentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ParentForm.Designer.cs">
+    <Compile Include="View\ParentForm.Designer.cs">
       <DependentUpon>ParentForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Employee.resx">
+    <EmbeddedResource Include="View\Employee.resx">
       <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loading.resx">
+    <EmbeddedResource Include="View\Jabatan.resx">
+      <DependentUpon>Jabatan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\loading.resx">
       <DependentUpon>loading.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ParentForm.resx">
+    <EmbeddedResource Include="View\ParentForm.resx">
       <DependentUpon>ParentForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -173,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controller\db.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

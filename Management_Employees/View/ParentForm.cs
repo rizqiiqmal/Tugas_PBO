@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Management_Employees.View;
 
 namespace Management_Employees
 {
@@ -28,8 +29,7 @@ namespace Management_Employees
 
             if (result == DialogResult.Yes)
             {
-                Form1 loginForm = new Form1();
-                loginForm.Show();
+                Close();
             }
         }
 
@@ -41,7 +41,8 @@ namespace Management_Employees
 
         private void ViewBtn_Click(object sender, EventArgs e)
         {
-
+            Jabatan jabatan= new Jabatan();
+            jabatan.Show();
         }
     }
 }
