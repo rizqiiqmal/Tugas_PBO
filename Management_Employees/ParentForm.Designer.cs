@@ -44,12 +44,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(181, 9);
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(127, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(324, 28);
+            this.label2.Size = new System.Drawing.Size(420, 36);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Sistem Menejemen Karyawan";
+            this.label2.Text = "Sistem Manajemen Karyawan";
             // 
             // EmployeeBtn
             // 
@@ -71,6 +71,7 @@
             this.ViewBtn.TabIndex = 9;
             this.ViewBtn.Text = "View";
             this.ViewBtn.UseVisualStyleBackColor = true;
+            this.ViewBtn.Click += new System.EventHandler(this.ViewBtn_Click);
             // 
             // LogoutBtn
             // 

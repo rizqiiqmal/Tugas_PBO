@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
@@ -9,6 +10,7 @@ using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Management_Employees
 {
@@ -20,32 +22,25 @@ namespace Management_Employees
             DisplayKaryawan();
         }
 
-        readonly SqlConnection Con = new SqlConnection(connectionString: @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ASUS\Documents\karyawan.mdf;Integrated Security=True;Connect Timeout=30");
-
         private void DisplayKaryawan()
         {
             try
             {
-                Con.Open();
-                string Query = "select * from TabelKaryawan";
-                SqlDataAdapter sda = new SqlDataAdapter();
-                SqlCommandBuilder builder = new SqlCommandBuilder(sda);
-                var ds = new DataSet();
-                sda.Fill(ds);
-                dataGridView1.DataSource = ds.Tables[0];
-                Con.Close();
+                using (MySqlConnection koneksi = Koneksi.GetConnection())
+                {
+                    koneksi.Open();
+                    string query = "SELECT * FROM tabelkaryawan";
+                    MySqlDataAdapter adapter = new MySqlDataAdapter(query, koneksi);
+                    DataTable dt = new DataTable();
+                    adapter.Fill(dt);
+                    dataGridView1.DataSource = dt;
+                }
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                Con.Close();
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
-
-
 
         private void CrossBtn_Click(object sender, EventArgs e)
         {
@@ -54,37 +49,32 @@ namespace Management_Employees
 
         private void BackBtn_Click(object sender, EventArgs e)
         {
-            ParentForm parentForm = new ParentForm();
-            parentForm.Show();
-            this.Hide();
+            this.Close();
         }
 
         private void AddBtn_Click(object sender, EventArgs e)
         {
             try
             {
-                if (textBox1.Text == " " || textBox3.Text == " " || textBox4.Text == " " || textBox5.Text == " ") 
+                using (MySqlConnection koneksi = Koneksi.GetConnection())
                 {
-                    MessageBox.Show("Data Kosong");
-                }
-                else
-                {
-                    Con.Open();
-                    string query = "Insert into TabelKaryawan value ('"+ textBox1.Text +"', '"+ textBox3.Text +"', '"+ comboBox1.SelectedItem.ToString() +"', '"+ textBox4.Text +"', '" + comboBox2.SelectedItem.ToString() +"', '"+ textBox5.Text +"')";
-                    SqlCommand cmd = new SqlCommand(query, Con);
+                    koneksi.Open();
+                    string query = "INSERT INTO tabelkaryawan (nama_karyawan, jenisKelamin_karyawan, alamat_karyawan, jabatan_karyawan, noHp_karyawan) " +
+                           "VALUES (@nama, @jk, @alamat, @jabatan, @noHp)";
+                    MySqlCommand cmd = new MySqlCommand(query, koneksi);
+                    cmd.Parameters.AddWithValue("@nama", textBox3.Text.Trim());
+                    cmd.Parameters.AddWithValue("@jk", comboBox1.SelectedItem?.ToString() ?? "");
+                    cmd.Parameters.AddWithValue("@alamat", textBox4.Text.Trim());
+                    cmd.Parameters.AddWithValue("@jabatan", comboBox2.SelectedItem?.ToString() ?? "");
+                    cmd.Parameters.AddWithValue("@noHp", textBox5.Text.Trim());
                     cmd.ExecuteNonQuery();
-                    Con.Close();
-                    MessageBox.Show("Berhasil Menambahkan Data");
+                    MessageBox.Show("Data Berhasil Ditambahkan!");
                     DisplayKaryawan();
                 }
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
-                MessageBox.Show (ex.Message);
-            }
-            finally
-            {
-                Con.Close();
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
 
@@ -97,79 +87,118 @@ namespace Management_Employees
         {
             try
             {
-                if (textBox1.Text == " ")
+                if (string.IsNullOrEmpty(textBox1.Text))
                 {
-                    MessageBox.Show("masukan id karyawan");
+                    MessageBox.Show("Pilih data karyawan yang ingin dihapus!");
+                    return;
                 }
-                else
+
+                DialogResult result = MessageBox.Show("Apakah Anda yakin ingin menghapus data ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
                 {
-                    Con.Open();
-                    string query = "delete from TabelKaryawan WHERE id_karyawan= '" + textBox1.Text + "';";
-                    SqlCommand cmd = new SqlCommand (query, Con);
-                    cmd.ExecuteNonQuery();
-                    Con.Close();
-                    MessageBox.Show("Data Berhasil Dihapus");
-                    DisplayKaryawan();
+                    using (MySqlConnection koneksi = Koneksi.GetConnection())
+                    {
+                        koneksi.Open();
+                        string query = "DELETE FROM tabelkaryawan WHERE id_karyawan = @id";
+                        MySqlCommand cmd = new MySqlCommand(query, koneksi);
+                        cmd.Parameters.AddWithValue("@id", Convert.ToInt32(textBox1.Text));
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Data berhasil dihapus!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Data tidak ditemukan atau gagal dihapus.");
+                        }
+
+                        DisplayKaryawan(); // Refresh DataGridView setelah hapus data
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            { 
-                Con.Close();
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
 
         private void ResetBtn_Click(object sender, EventArgs e)
         {
-            textBox1.Text = " ";
-            textBox3.Text = " ";
-            comboBox1.Text = " ";
-            textBox4.Text = " ";
-            comboBox2.Text = " ";
-            textBox5.Text = " ";
+            textBox1.Clear();
+            textBox3.Clear();
+            comboBox1.SelectedIndex = -1;
+            textBox4.Clear();
+            comboBox2.SelectedIndex = -1;
+            textBox5.Clear();
         }
 
         private void UpdateBtn_Click(object sender, EventArgs e)
         {
             try
             {
-                if (textBox1.Text == " " || textBox3.Text == " " || textBox4.Text == " " || textBox5.Text == " ")
+                if (string.IsNullOrEmpty(textBox1.Text))
                 {
-                    MessageBox.Show("Data Kosong");
+                    MessageBox.Show("Pilih data karyawan yang ingin diperbarui!");
+                    return;
                 }
-                else
+
+                DialogResult result = MessageBox.Show("Apakah Anda yakin ingin mengupdate data ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
                 {
-                    Con.Open();
-                    string query = "Update TabelKaryawan set id_karyawan='" + textBox1.Text + "', nama_karyawan='" + textBox3.Text + "', jenisKelamin_karyawan='" + comboBox1.SelectedItem.ToString() + "', alamat_karyawan='" + textBox4.Text + "', jabatan_karyawan='" + comboBox2.SelectedItem.ToString() + "', noHp_karyawan='" + textBox5.Text + "';";
-                    SqlCommand cmd = new SqlCommand(query, Con);
-                    cmd.ExecuteNonQuery();
-                    Con.Close();
-                    MessageBox.Show("Berhasil Mengubah Data");
-                    DisplayKaryawan();
+                    using (MySqlConnection koneksi = Koneksi.GetConnection())
+                    {
+                        koneksi.Open();
+                        string query = "UPDATE tabelkaryawan SET nama_karyawan = @nama, jenisKelamin_karyawan = @jk, alamat_karyawan = @alamat, " +
+                              "jabatan_karyawan = @jabatan, noHp_karyawan = @noHp WHERE id_karyawan = @id";
+                        MySqlCommand cmd = new MySqlCommand(query, koneksi);
+                        int id_karyawan;
+                        if (!int.TryParse(textBox1.Text, out id_karyawan))
+                        {
+                            MessageBox.Show("ID Karyawan tidak valid!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            return;
+                        }
+                        cmd.Parameters.AddWithValue("@id", id_karyawan);
+                        cmd.Parameters.AddWithValue("@nama", textBox3.Text.Trim());
+                        cmd.Parameters.AddWithValue("@jk", comboBox1.SelectedItem?.ToString() ?? "");
+                        cmd.Parameters.AddWithValue("@alamat", textBox4.Text.Trim());
+                        cmd.Parameters.AddWithValue("@jabatan", comboBox2.SelectedItem?.ToString() ?? "");
+                        cmd.Parameters.AddWithValue("@noHp", textBox5.Text.Trim());
+
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Data berhasil diperbarui!");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Data gagal diperbarui atau tidak ditemukan.");
+                        }
+
+                        DisplayKaryawan(); // Refresh DataGridView setelah update data
+                    }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                Con.Close();
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
 
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
-            textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
-            textBox3.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
-            comboBox1.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
-            textBox4.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
-            comboBox2.Text = dataGridView1.SelectedRows[0].Cells[4].Value.ToString();
-            textBox5.Text = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
-
+            if (dataGridView1.SelectedRows.Count > 0 && dataGridView1.SelectedRows[0].Cells[0].Value != null)
+            {
+                textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value?.ToString() ?? "";
+                textBox3.Text = dataGridView1.SelectedRows[0].Cells[1].Value?.ToString() ?? "";
+                comboBox1.Text = dataGridView1.SelectedRows[0].Cells[2].Value?.ToString() ?? "";
+                textBox4.Text = dataGridView1.SelectedRows[0].Cells[3].Value?.ToString() ?? "";
+                comboBox2.Text = dataGridView1.SelectedRows[0].Cells[4].Value?.ToString() ?? "";
+                textBox5.Text = dataGridView1.SelectedRows[0].Cells[5].Value?.ToString() ?? "";
+            }
 
         }
     }

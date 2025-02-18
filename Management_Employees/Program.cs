@@ -16,6 +16,12 @@ namespace Management_Employees
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            using (loading loadingForm = new loading())
+            {
+                loadingForm.ShowDialog(); // Menampilkan loading sebelum Form1
+            }
+
+            // **Setelah Loading Selesai, Jalankan Form1 (Login)**
             Application.Run(new Form1());
         }
     }

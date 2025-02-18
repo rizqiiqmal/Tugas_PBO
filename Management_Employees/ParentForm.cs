@@ -19,21 +19,29 @@ namespace Management_Employees
 
         private void CrossBtn_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit(); // Keluar dari seluruh aplikasi
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 obj = new Form1();
-            obj.Show();
-            this.Hide();
+            DialogResult result = MessageBox.Show("Apakah Anda yakin ingin logout?", "Konfirmasi Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+                Form1 loginForm = new Form1();
+                loginForm.Show();
+            }
         }
 
         private void EmployeeBtn_Click(object sender, EventArgs e)
         {
-            Employee employee = new Employee();
-            employee.Show();
-            this.Hide();
+            Employee EmployeeForm = new Employee();
+            EmployeeForm.Show();
+        }
+
+        private void ViewBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
