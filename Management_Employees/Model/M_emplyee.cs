@@ -14,5 +14,6 @@ namespace Management_Employees.Model
         public string Alamat { get; set; }
         public string Jabatan { get; set; }
         public string NoHp { get; set; }
+        public int IdJabatan { get; set; }
     }
 }

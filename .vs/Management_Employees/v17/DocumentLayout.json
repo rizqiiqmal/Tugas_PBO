@@ -3,63 +3,63 @@
   "WorkspaceRootPath": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\controller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\controller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\model\\m_emplyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\model\\m_emplyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\jabatan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\jabatan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\controller\\c_jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\controller\\c_jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\controller\\c_jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\model\\m_jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\jabatan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\jabatan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\model\\m_jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\model\\m_jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\jabatan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\controller\\db.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\controller\\db.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\controller\\db.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\parentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\controller\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\controller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\controller\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\model\\m_emplyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\model\\m_emplyee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|c:\\users\\laptop flex 5\\source\\repos\\tugas_pbo\\management_employees\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\view\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,12 +67,12 @@
       "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:management_employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\management_employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F20E0C3-803F-47D2-9D95-BC67A97676EF}|Management_Employees\\Management_Employees.csproj|solutionrelative:management_employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Management_Employees\\loading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,7 +86,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ParentForm.cs",
               "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\ParentForm.cs",
               "RelativeDocumentMoniker": "Management_Employees\\View\\ParentForm.cs",
@@ -99,34 +99,89 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Jabatan.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.Designer.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\View\\Jabatan.Designer.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.Designer.cs",
-              "RelativeToolTip": "Management_Employees\\View\\Jabatan.Designer.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAIwEAAAABwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T09:21:10.403Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\View\\Employee.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs",
+              "RelativeToolTip": "Management_Employees\\View\\Employee.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwLwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T23:17:23.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\View\\Employee.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs [Design]",
+              "RelativeToolTip": "Management_Employees\\View\\Employee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:51:07.482Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Controller\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\EmployeeController.cs",
+              "RelativeToolTip": "Management_Employees\\Controller\\EmployeeController.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAAAJ0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T03:15:06.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "M_emplyee.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Model\\M_emplyee.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Model\\M_emplyee.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Model\\M_emplyee.cs",
+              "RelativeToolTip": "Management_Employees\\Model\\M_emplyee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T08:18:44.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Jabatan.cs",
               "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.cs",
               "RelativeDocumentMoniker": "Management_Employees\\View\\Jabatan.cs",
               "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.cs",
               "RelativeToolTip": "Management_Employees\\View\\Jabatan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T08:37:27.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "C_jabatan.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\C_jabatan.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Controller\\C_jabatan.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\C_jabatan.cs",
+              "RelativeToolTip": "Management_Employees\\Controller\\C_jabatan.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T08:36:19.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "M_jabatan.cs",
               "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Model\\M_jabatan.cs",
               "RelativeDocumentMoniker": "Management_Employees\\Model\\M_jabatan.cs",
@@ -139,169 +194,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "C_jabatan.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\C_jabatan.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\Controller\\C_jabatan.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\C_jabatan.cs",
-              "RelativeToolTip": "Management_Employees\\Controller\\C_jabatan.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAYwHEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Jabatan.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.Designer.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\View\\Jabatan.Designer.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.Designer.cs",
+              "RelativeToolTip": "Management_Employees\\View\\Jabatan.Designer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwEAAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:36:19.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Jabatan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\View\\Jabatan.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.cs [Design]",
-              "RelativeToolTip": "Management_Employees\\View\\Jabatan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:37:00.557Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "db.sql",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\db.sql",
-              "RelativeDocumentMoniker": "Management_Employees\\Controller\\db.sql",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\db.sql",
-              "RelativeToolTip": "Management_Employees\\Controller\\db.sql",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAswIgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-02-18T08:40:42.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ParentForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\ParentForm.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\View\\ParentForm.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\ParentForm.cs [Design]",
-              "RelativeToolTip": "Management_Employees\\View\\ParentForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T07:28:45.142Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Employee.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\View\\Employee.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs [Design]",
-              "RelativeToolTip": "Management_Employees\\View\\Employee.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T12:51:07.482Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\View\\Form1.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs [Design]",
-              "RelativeToolTip": "Management_Employees\\View\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T06:11:02.588Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "koneksi.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\koneksi.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\Controller\\koneksi.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\koneksi.cs",
-              "RelativeToolTip": "Management_Employees\\Controller\\koneksi.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T23:56:35.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\View\\Employee.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Employee.cs",
-              "RelativeToolTip": "Management_Employees\\View\\Employee.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAYwJwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T23:17:23.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\Controller\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\EmployeeController.cs",
-              "RelativeToolTip": "Management_Employees\\Controller\\EmployeeController.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAYwHkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T03:15:06.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "M_emplyee.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Model\\M_emplyee.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\Model\\M_emplyee.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Model\\M_emplyee.cs",
-              "RelativeToolTip": "Management_Employees\\Model\\M_emplyee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:18:44.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\View\\Form1.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs",
-              "RelativeToolTip": "Management_Employees\\View\\Form1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T07:41:04.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Program.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\Program.cs",
-              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Program.cs",
-              "RelativeToolTip": "Management_Employees\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T05:06:18.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "loading.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\loading.cs",
-              "RelativeDocumentMoniker": "Management_Employees\\loading.cs",
-              "ToolTip": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\loading.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T06:05:34.153Z"
+              "WhenOpened": "2025-02-18T09:21:10.403Z"
             },
             {
               "$type": "Document",
@@ -314,6 +215,99 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAA2wBgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T06:23:24.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Jabatan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\View\\Jabatan.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Jabatan.cs [Design]",
+              "RelativeToolTip": "Management_Employees\\View\\Jabatan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T08:37:00.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "db.sql",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\db.sql",
+              "RelativeDocumentMoniker": "Management_Employees\\Controller\\db.sql",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\db.sql",
+              "RelativeToolTip": "Management_Employees\\Controller\\db.sql",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-18T08:40:42.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\ParentForm.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\View\\ParentForm.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\ParentForm.cs [Design]",
+              "RelativeToolTip": "Management_Employees\\View\\ParentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:28:45.142Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\View\\Form1.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs [Design]",
+              "RelativeToolTip": "Management_Employees\\View\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T06:11:02.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "koneksi.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\koneksi.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Controller\\koneksi.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Controller\\koneksi.cs",
+              "RelativeToolTip": "Management_Employees\\Controller\\koneksi.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T23:56:35.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\View\\Form1.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\View\\Form1.cs",
+              "RelativeToolTip": "Management_Employees\\View\\Form1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T07:41:04.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Program.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\Program.cs",
+              "ToolTip": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\Program.cs",
+              "RelativeToolTip": "Management_Employees\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T05:06:18.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "loading.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laptop flex 5\\source\\repos\\Tugas_PBO\\Management_Employees\\loading.cs",
+              "RelativeDocumentMoniker": "Management_Employees\\loading.cs",
+              "ToolTip": "D:\\my\\rzqiiqmal_\\semester 3\\PBO\\Tugas Besar\\Management_Employees\\Management_Employees\\loading.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T06:05:34.153Z"
             },
             {
               "$type": "Bookmark",

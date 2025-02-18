@@ -24,6 +24,7 @@ namespace Management_Employees
             InitializeComponent();
             _controller = new EmployeeController();
             DisplayKaryawan();
+            LoadJabatan();
         }
 
         private void DisplayKaryawan()
@@ -31,6 +32,21 @@ namespace Management_Employees
             try
             {
                 dataGridView1.DataSource = _controller.GetEmployees();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void LoadJabatan()
+        {
+            try
+            {
+                DataTable dtJabatan = _controller.GetJabatan();
+                comboBox2.DataSource = dtJabatan;
+                comboBox2.DisplayMember = "nama_jabatan";
+                comboBox2.ValueMember = "id_jabatan";
             }
             catch (Exception ex)
             {
@@ -57,7 +73,8 @@ namespace Management_Employees
                     JenisKelamin = comboBox1.SelectedItem?.ToString() ?? "",
                     Alamat = textBox4.Text.Trim(),
                     Jabatan = comboBox2.SelectedItem?.ToString() ?? "",
-                    NoHp = textBox5.Text.Trim()
+                    NoHp = textBox5.Text.Trim(),
+                    IdJabatan = Convert.ToInt32(comboBox2.SelectedValue)
                 };
                 _controller.AddEmployee(employee);
                 MessageBox.Show("Data Berhasil Ditambahkan!");
@@ -71,6 +88,7 @@ namespace Management_Employees
         private void Employee_Load(object sender, EventArgs e)
         {
             DisplayKaryawan();
+            LoadJabatan();
         }
 
         private void DelBtn_Click(object sender, EventArgs e)
@@ -130,7 +148,8 @@ namespace Management_Employees
                         JenisKelamin = comboBox1.SelectedItem?.ToString() ?? "",
                         Alamat = textBox4.Text.Trim(),
                         Jabatan = comboBox2.SelectedItem?.ToString() ?? "",
-                        NoHp = textBox5.Text.Trim()
+                        NoHp = textBox5.Text.Trim(),
+                        IdJabatan = Convert.ToInt32(comboBox2.SelectedValue)
                     };
                     _controller.UpdateEmployee(employee);
                     MessageBox.Show("Data berhasil diperbarui!");
@@ -154,6 +173,16 @@ namespace Management_Employees
                 comboBox2.Text = dataGridView1.SelectedRows[0].Cells[4].Value?.ToString() ?? "";
                 textBox5.Text = dataGridView1.SelectedRows[0].Cells[5].Value?.ToString() ?? "";
             }
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
